@@ -88,5 +88,3 @@ După introducerea ID-ului corect i se vor afișa toate comenzile și locația u
  ![image](https://user-images.githubusercontent.com/56314118/168478955-a9a2a82f-3519-4400-8129-0c235958a062.png)
 
 În final, cu ajutorul Google Maps API poate vedea pe hartă unde este localizat pachetul acestuia.  <br />
-
-# backend-marketplace
