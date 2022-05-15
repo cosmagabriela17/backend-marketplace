@@ -1,0 +1,1 @@
+-Dspring.datasource.url=jdbc:mysql://34.88.184.16:3306/marketplace
