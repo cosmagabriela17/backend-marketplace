@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @org.springframework.stereotype.Controller
 @CrossOrigin
@@ -29,6 +30,10 @@ public class Controller {
         return clientsRepository.findAll();
     }
 
+    @GetMapping(path="/clients/{id}")
+    public @ResponseBody Optional<Clients> getClientById(@PathVariable("id") int id) {
+        return clientsRepository.findById(id);
+    }
 
     @GetMapping(path="/orders")
     public @ResponseBody Iterable<Orders> gertAllOrders() {
